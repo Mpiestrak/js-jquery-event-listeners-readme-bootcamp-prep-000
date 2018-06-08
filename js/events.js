@@ -1,11 +1,10 @@
 //define functions here
 
 function getIt() {
-  if ($("p")) {
+  $('p').on("click", function() {
     alert("Hey!")
-    return
+  })
   }
-}
 
 function frameIt() {
   $()
